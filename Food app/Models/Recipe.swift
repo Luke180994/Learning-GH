@@ -22,3 +22,15 @@ class Recipe: Identifiable, Decodable {
     var ingredients :[String]
     var directions :[String]
 }
+
+
+class Ingredients: Identifiable, Decodable {
+    
+    
+    
+    
+    
+    
+    
+    
+}
