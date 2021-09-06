@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8407B570267B9E11003471C6 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B56F267B9E11003471C6 /* RecipeDetailView.swift */; };
+		8427ABD426E6A9A40027FA3F /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427ABD326E6A9A40027FA3F /* Rational.swift */; };
 		84296102268BA53900E26A41 /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84296101268BA53900E26A41 /* FeaturedView.swift */; };
 		842D8A672677A2660070F0CC /* Food_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8A662677A2660070F0CC /* Food_appApp.swift */; };
 		842D8A6B2677A2660070F0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842D8A6A2677A2660070F0CC /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		8407B56F267B9E11003471C6 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		8427ABD326E6A9A40027FA3F /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		84296101268BA53900E26A41 /* FeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
 		842D8A632677A2660070F0CC /* Food app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D8A662677A2660070F0CC /* Food_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_appApp.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8427ABD226E6A94B0027FA3F /* Utilities  */ = {
+			isa = PBXGroup;
+			children = (
+				8427ABD326E6A9A40027FA3F /* Rational.swift */,
+			);
+			path = "Utilities ";
+			sourceTree = "<group>";
+		};
 		842D8A5A2677A2660070F0CC = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 				842D8A752677A8890070F0CC /* Views */,
 				842D8A772677A8970070F0CC /* ViewModel */,
 				842D8A762677A8920070F0CC /* Models */,
+				8427ABD226E6A94B0027FA3F /* Utilities  */,
 				842D8A792677A8E30070F0CC /* Services */,
 				842D8A782677A8DD0070F0CC /* Data */,
 				842D8A6A2677A2660070F0CC /* Assets.xcassets */,
@@ -202,6 +213,7 @@
 			files = (
 				84296102268BA53900E26A41 /* FeaturedView.swift in Sources */,
 				842D8A7D2677A9F40070F0CC /* Recipe.swift in Sources */,
+				8427ABD426E6A9A40027FA3F /* Rational.swift in Sources */,
 				8407B570267B9E11003471C6 /* RecipeDetailView.swift in Sources */,
 				842D8A7F2677AC310070F0CC /* RecipeModel.swift in Sources */,
 				842D8A812677AD3E0070F0CC /* RecipeListView.swift in Sources */,
