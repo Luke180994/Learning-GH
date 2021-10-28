@@ -78,7 +78,7 @@ struct FeaturedView: View {
                 Text(model.recipes[tabSelectionIndex].prepTime)
                 Text("Highlights")
                     .font(.headline)
-                Text("")
+                RecipeHighlights(highlights: model.recipes[tabSelectionIndex].highlights)
             }.padding([.leading, .bottom])
             
         }.onAppear(perform: {

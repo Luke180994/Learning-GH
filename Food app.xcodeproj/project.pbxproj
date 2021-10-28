@@ -19,6 +19,7 @@
 		842D8A832677AEB50070F0CC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D8A822677AEB50070F0CC /* DataService.swift */; };
 		844C631826864B4C00143728 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C631726864B4C00143728 /* RecipeTabView.swift */; };
 		844C631A2688E86A00143728 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 844C63192688E86A00143728 /* recipes.json */; };
+		849A7AE4272AFCAB00CB2D26 /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A7AE3272AFCAB00CB2D26 /* RecipeHighlights.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		842D8A822677AEB50070F0CC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		844C631726864B4C00143728 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		844C63192688E86A00143728 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = ../../../../Downloads/recipes.json; sourceTree = "<group>"; };
+		849A7AE3272AFCAB00CB2D26 /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				844C631726864B4C00143728 /* RecipeTabView.swift */,
+				849A7AE3272AFCAB00CB2D26 /* RecipeHighlights.swift */,
 				84296101268BA53900E26A41 /* FeaturedView.swift */,
 				842D8A802677AD3E0070F0CC /* RecipeListView.swift */,
 				8407B56F267B9E11003471C6 /* RecipeDetailView.swift */,
@@ -213,6 +216,7 @@
 			files = (
 				84296102268BA53900E26A41 /* FeaturedView.swift in Sources */,
 				842D8A7D2677A9F40070F0CC /* Recipe.swift in Sources */,
+				849A7AE4272AFCAB00CB2D26 /* RecipeHighlights.swift in Sources */,
 				8427ABD426E6A9A40027FA3F /* Rational.swift in Sources */,
 				8407B570267B9E11003471C6 /* RecipeDetailView.swift in Sources */,
 				842D8A7F2677AC310070F0CC /* RecipeModel.swift in Sources */,
